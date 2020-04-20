@@ -1,0 +1,28 @@
+{
+  "name": "bot_propertyguru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "ship": "git add .&&git commit -m 'update'&&git push"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrono-node": "^1.4.4",
+    "moment": "^2.24.0",
+    "p-limit": "^2.2.2",
+    "puppeteer": "^2.1.1",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin-block-resources": "^2.2.4",
+    "puppeteer-extra-plugin-recaptcha": "^3.1.10",
+    "puppeteer-extra-plugin-stealth": "^2.4.9",
+    "underscore": "^1.9.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0"
+  }
+}
